@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Morgen';
+  src: local('Morgen'), url('./fonts/Morgen.otf');
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Morgen';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
